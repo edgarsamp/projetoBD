@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.30" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Telas\Classe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\ItemRecompensa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\HeroiGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Missao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Heroi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Recompensa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\LugarCriatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Lugar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Criatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
